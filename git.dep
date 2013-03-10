@@ -1,0 +1,65 @@
+var gitconfig = {
+  repo: 'https://github.com/EricMCornelus/',
+  branch: 'master',
+  target: 'async'
+}
+
+register({
+  id: 'PegGit',
+  type: 'scm',
+  git: {
+    repo: 'git@github.com:EricMCornelius/Peg.git',
+    branch: 'dev',
+    target: 'peg'
+  }
+});
+
+register({
+  id: 'SerializerGit',
+  type: 'scm',
+  git: {
+    repo: 'https://github.com/EricMCornelius/Serializer.git',
+    branch: 'master',
+    target: 'serializer'
+  }
+});
+
+register({
+  id: 'FunctionalGit',
+  type: 'scm',
+  git: {
+    repo: 'https://github.com/EricMCornelius/Functional.git',
+    branch: 'master',
+    target: 'functional'
+  }
+});
+
+register({
+  id: 'PluginGit',
+  type: 'scm',
+  git: {
+    repo: 'git@github.com:EricMCornelius/Plugin.git',
+    branch: 'master',
+    target: 'plugin'
+  }
+});
+
+register({
+  id: 'ClengGit',
+  type: 'scm',
+  git: {
+    repo: 'git@github.com:EricMCornelius/Cleng.git',
+    branch: 'master',
+    target: 'cleng'
+  }
+});
+
+register({
+  id: 'ProjectsGit',
+  type: 'scm',
+  git: {
+    repo: 'git@github.com:EricMCornelius/Projects.git',
+    branch: 'master',
+    target: 'projects'
+  }
+});
